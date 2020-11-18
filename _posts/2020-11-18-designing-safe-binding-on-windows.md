@@ -1,13 +1,13 @@
 ---
-published: true
+published: false
 ---
 ## Introduction
 Introduce concept here
-### Laying the groundwork
+## Laying the groundwork
 
 ### Issues
  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Talk about issues I came across, listed in my notes.txt
+Talk about issues I came across, listed in my notes.txt
 handle was dropped when calling into_raw()
 shared mem file isn't being deleted at the end of the program due to panic: swapped to nanomsg
 panicking because WSAStartup isn't being called: fixed via ghost bind -- no longer needed due to WSA calls during socket hand off
